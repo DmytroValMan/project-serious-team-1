@@ -11,7 +11,7 @@
   color: #141414;
 }
 
-@media screen and (max-width: 374px) {
+@media only screen and (max-width: 374px) {
   .advertisement-content {
     font-size: 36px;
   }
@@ -28,7 +28,6 @@
   .advertisement-content {
     font-size: 76px;
     padding-left: 16px;
-    
   }
 }
 

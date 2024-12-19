@@ -2,14 +2,12 @@
   display: flex;
   gap: 4px;
   align-items: center;
-
 }
-.harvest-policy{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    margin-top: 80px;
-
+.harvest-policy {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 80px;
 }
 .foot {
   background-color: #7a3145;
@@ -41,14 +39,13 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-
 }
 .icon-name {
   margin: 0;
   padding: 0;
 }
 .footer-logo-text {
-    fill: #fbfbfb;
+  fill: #fbfbfb;
 }
 .paragraph-logo-foot {
   font-weight: 500;
@@ -84,21 +81,21 @@
   gap: 14px;
 }
 .li-privacy {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 8px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.42857;
   color: #d4bfc4;
 }
 .a-privacy:not(:last-child)::after {
-    content: "/";
-    margin-left: 5px;
-    color: #d4bfc4;
+  content: '/';
+  margin-left: 5px;
+  color: #d4bfc4;
 }
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .logo-index {
     gap: 9px;
   }
@@ -134,12 +131,11 @@
     gap: 24px;
   }
 
-  .harvest-policy{
+  .harvest-policy {
     margin-top: 100px;
     flex-direction: row;
     justify-content: space-between;
   }
-  
 
   .policy {
     justify-content: space-between;
@@ -154,12 +150,12 @@
     gap: 24px;
   }
 }
-@media screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
   .logo-index {
     gap: 9px;
   }
 
-  .harvest-policy{
+  .harvest-policy {
     margin-top: 124px;
   }
 
@@ -173,7 +169,7 @@
   .foot {
     padding: 52px 100px;
   }
- 
+
   .menu-navigation {
     gap: 122px;
     flex-direction: row;
