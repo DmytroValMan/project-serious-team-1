@@ -42,16 +42,15 @@
   .advertisement-content-span {
     padding-top: 20px;
     padding-right: 8px;
-    height: 86px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .advertisement-content-span {
     padding-top: 4px;
-    padding-right: 8px;
+    padding-right: 5px;
     padding-left: 16px;
     margin-left: -16px;
-    height: 84px;
+    margin-right: 10px;
   }
 }
